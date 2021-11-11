@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM mongo:latest
 ENV DEBIAN_FRONTEND=noninteractive
 WORKDIR /app
 ADD devops-test .
